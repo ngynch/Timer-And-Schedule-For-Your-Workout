@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/plusrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plusten"
+        android:layout_alignBottom="@+id/rest"
+        android:layout_toRightOf="@+id/done"
+        android:layout_toEndOf="@+id/done"/>
+
+    <Button
+        android:id="@+id/minusrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minusten"
+        android:layout_alignBottom="@+id/rest"
+        android:layout_toLeftOf="@id/done"
+        android:layout_toStartOf="@id/done"/>
+
+
+    <TextView
+        android:id="@+id/rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:text="@string/restninety"/>
+
+    <Button
+        android:id="@+id/plusworkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plusten"
+        android:layout_alignBottom="@+id/workout"
+        android:layout_toRightOf="@+id/done"
+        android:layout_toEndOf="@id/done"/>
+
+    <Button
+        android:id="@+id/minusworkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minusten"
+        android:layout_alignBottom="@+id/workout"
+        android:layout_toLeftOf="@+id/done"
+        android:layout_toStartOf="@id/done"/>
+
+    <TextView
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/rest"
+        android:gravity="center"
+        android:text="@string/workoutforty"/>
+
+    <Button
+        android:id="@+id/plusset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plusone"
+        android:layout_alignBottom="@+id/sets"
+        android:layout_toRightOf="@id/done"
+        android:layout_toEndOf="@id/done"/>
+
+    <Button
+        android:id="@+id/minusset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minusone"
+        android:layout_alignBottom="@+id/sets"
+        android:layout_toLeftOf="@id/done"
+        android:layout_toStartOf="@id/done"/>
+
+    <TextView
+        android:id="@+id/sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/workout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sets"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:text="@string/done"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sets"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Timer And Schedule For Your Workout</string>
+
+    <string name="home_button">Home</string>
+    <string name="gym_button">Gym</string>
+
+    <string name="skip">Skip Time</string>
+    <string name="minusten">-10</string>
+    <string name="plusten">+10</string>
+
+    <string name="plusone">+1</string>
+    <string name="minusone">-1</string>
+
+    <string name ="restninety">Rest\n90 sec</string>
+    <string name ="workoutforty">Workout\n40 sec</string>
+    <string name ="sets">Sets\n3</string>
+
+    <string name ="done">Done</string>
+</resources>
