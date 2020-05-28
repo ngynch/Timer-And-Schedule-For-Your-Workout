@@ -1,7 +1,7 @@
 # Timer-And-Schedule-For-Your-Workout
 First playstore application with android studio (Interval timer)
 
-<img images="interfacesetting.jpg">
+<img src="images/interfacesetting.jpg" width ="100">
 
 ![](/images/interfacehome.jpg)
 
