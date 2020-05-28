@@ -1,8 +1,7 @@
 # Timer-And-Schedule-For-Your-Workout
 First playstore application with android studio (Interval timer)
+<img images="interfacesetting.jpg" width="40%">
 
-![](/images/interfacesetting.jpg | width= 48)
-![](/images/interfacetimer.jpg)
 ![](/images/interfacehome.jpg)
 
 This is an example Android Application README to show briefly the sections your app README should contain.
